@@ -1,25 +1,10 @@
-var array1 = [1,2,3,4,5,6];
+let arr = [8,5,4,7,1];
 
-let j=0;
-while(j<array1.length)
-{
-    console.log(array1[j]);
-    j++;
-}
+//arr.shift();
+//arr.pop();
+//arr.push("alok");
+//arr.sort();
+//arr.toString();
 
-/*
-console.log(array1);
+console.log(arr);
 
-for(var i=0; i<array1.length; i++)
-{
-console.log(array1[i]);
-}
-
-//FOR EACH()
-
-array1.forEach(function (f1)   //The forEach() method calls a function for each element in an array.
-{
-    console.log(f1);
-}
-)
-*/
